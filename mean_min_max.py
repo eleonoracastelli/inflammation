@@ -1,7 +1,8 @@
 import numpy
 import matplotlib.pyplot
 
-# FIX the missing data that need to be analysed!
+# another very nice line
+
 data = numpy.loadtxt(fname='data/inflammation-01.csv', delimiter=',')
 
 # plot figures
