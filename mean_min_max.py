@@ -4,8 +4,10 @@ import matplotlib.pyplot
 # FIX the missing data that need to be analysed!
 data = numpy.loadtxt(fname='inflammation-01.csv', delimiter=',')
 
-fig = matplotlib.pyplot.figure(figsize=(10.0, 3.0))
+# plot figures
+fig = matplotlib.pyplot.figure(figsize=(10.0, 4.0))
 
+# figure setup
 axes1 = fig.add_subplot(1, 3, 1)
 axes2 = fig.add_subplot(1, 3, 2)
 axes3 = fig.add_subplot(1, 3, 3)
@@ -21,4 +23,5 @@ axes3.plot(numpy.min(data, axis=0))
 
 fig.tight_layout()
 
+# show figure
 matplotlib.pyplot.show()
