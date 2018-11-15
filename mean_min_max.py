@@ -2,10 +2,10 @@ import numpy
 import matplotlib.pyplot
 
 # FIX the missing data that need to be analysed!
-data = numpy.loadtxt(fname='inflammation-01.csv', delimiter=',')
+data = numpy.loadtxt(fname='data/inflammation-01.csv', delimiter=',')
 
 # plot figures
-fig = matplotlib.pyplot.figure(figsize=(10.0, 4.0))
+fig = matplotlib.pyplot.figure(figsize=(10.0, 3.0))
 
 # figure setup
 axes1 = fig.add_subplot(1, 3, 1)
